@@ -1,1 +1,13 @@
-
+bin/
+.DS_Store
+.AppleDouble
+.gitignore
+.bowerrc
+bower-Polymer-commands.txt
+npm-command.txt
+bower.json
+gulpfile.js
+package.json
+lib
+node_modules
+npm-debug.log
