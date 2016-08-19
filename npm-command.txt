@@ -1,0 +1,3 @@
+npm install --save body-parser cookie-parser debug express pug lodash morgan node-sass-middleware serve-favicon jsonwebtoken bcrypt-nodejs
+
+npm install --save-dev nodemon mongoose gulp gulp-autoprefixer gulp-changed gulp-concat gulp-concat-css gulp-clean-css gulp-imagemin gulp-jshint gulp-livereload npm install --save-dev gulp-rename gulp-sass gulp-uglify gulp-watch jshint-stylish port graceful-fs jshint minimatch

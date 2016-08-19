@@ -24,6 +24,25 @@
 	<div class="well well-lg">
 		<h3 class="text-primary text-center">promiseWithIndecedDB_17Aug2016</h3>
 	</div>
+	<div class="container-fluid">
+		<div class="row" ng-controller="IndexedDBTodosCtrl">
+			<div class="panel panel-primary">
+				<div class="panel-heading">
+					<h3 class="panel-title">Todos List with Promise with IndexedDB</h3>
+				</div>
+				<div class="panel-body">
+					<input type="text" name="todoName" id="inputTodoName" class="form-control" ng-model="todoToIndexedDb" />
+					<button type="button" class="btn btn-success" ng-click="addToIndexedDb()">Add</button>
+					<button type="button" class="btn btn-warning" ng-click="refreshTodos()">Refresh</button>
+					<ul class="list-group">
+						<li class="list-group-item" ng-repeat="eachTodo in todoList track by $index">
+							{{eachTodo}} <button type="button" class="btn btn-danger" ng-click="removeThisTodo(eachTodo.id)">Remove</button>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
 </body>
 <!-- compiled-app-js -->
 <script type="text/javascript" language="javascript" src="./metamorphosis/build/js/app-compiled.js"></script>

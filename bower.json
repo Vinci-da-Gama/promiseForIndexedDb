@@ -1,0 +1,28 @@
+{
+  "name": "The Name",
+  "description": "The Description",
+  "version": "0.0.0",
+  "license": "MIT",
+  "dependencies": {
+    "wow": "wowjs#~1.1.2",
+    "animate.css": "~3.5.1",
+    "polymer": "Polymer/polymer#^1.3.0",
+    "jquery": "^3.1.0",
+    "bootstrap": "^3.3.7",
+    "moment": "^2.14.1",
+    "angular": "^1.5.8",
+    "angular-ui-router": "^0.3.1",
+    "angular-sanitize": "^1.5.8",
+    "angular-aria": "^1.5.8",
+    "ng-notify": "^0.8.0",
+    "angular-messages": "^1.5.8",
+    "angular-animate": "^1.5.8",
+    "angular-strap": "^2.3.9",
+    "ngMask": "angular-mask#^3.1.1",
+    "angular-moment": "^0.10.3",
+    "angular-bootstrap": "^2.0.2",
+    "modernizr": "^3.3.1",
+    "angular-bootstrap-lightbox": "^0.12.0"
+  },
+  "devDependencies": {}
+}

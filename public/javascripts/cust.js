@@ -1,7 +1,7 @@
 // jQuery Js Document
 $(document).ready(function() {
-	notice ();
-	initWow ();
+	/*notice ();
+	initWow ();*/
 });
 
 function notice () {
